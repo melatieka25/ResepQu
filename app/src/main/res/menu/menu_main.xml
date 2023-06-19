@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/list"
+        app:showAsAction= "ifRoom"/>
+
+    <item
+        android:id="@+id/action_grid"
+        android:icon="@drawable/ic_baseline_grid_on_24"
+        android:title="@string/grid"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/about_page"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/about_me"
+        app:showAsAction="ifRoom"/>
+
+</menu>
